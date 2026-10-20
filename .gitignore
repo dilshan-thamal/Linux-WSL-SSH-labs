@@ -1,0 +1,15 @@
+# Authentication material and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+secrets/
+private/
+# Unsanitised evidence
+evidence/raw/
+# Local OS files
+.DS_Store
+Thumbs.db
